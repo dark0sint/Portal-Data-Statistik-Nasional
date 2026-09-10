@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portal Data Statistik Nasional</title>
+<meta name="description" content="Portal Data Statistik Nasional — cari, lihat, dan unduh data statistik resmi dengan mudah.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<a href="#main-content" class="skip-link">Lompat ke konten utama</a>
+
+<!-- ===================== TOOLBAR AKSESIBILITAS ===================== -->
+<div class="a11y-bar" role="toolbar" aria-label="Pengaturan aksesibilitas">
+  <div class="a11y-bar-inner">
+    <span class="a11y-label">Aksesibilitas:</span>
+    <button id="btnFontDown" class="a11y-btn" aria-label="Perkecil ukuran teks">A-</button>
+    <button id="btnFontReset" class="a11y-btn" aria-label="Ukuran teks normal">A</button>
+    <button id="btnFontUp" class="a11y-btn" aria-label="Perbesar ukuran teks">A+</button>
+    <button id="btnContrast" class="a11y-btn" aria-label="Ubah kontras warna">◐ Kontras Tinggi</button>
+    <button id="btnTutorial" class="a11y-btn" aria-label="Buka panduan penggunaan">🎓 Panduan</button>
+  </div>
+</div>
+
+<!-- ===================== HEADER ===================== -->
+<header class="site-header">
+  <div class="container header-row">
+    <a href="#/" class="brand" aria-label="Beranda Portal Data Statistik Nasional">
+      <span class="brand-mark" aria-hidden="true">📊</span>
+      <span class="brand-text">
+        <strong>Portal Data</strong>
+        <small>Statistik Nasional</small>
+      </span>
+    </a>
+
+    <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="mainNav" aria-label="Buka menu navigasi">☰</button>
+
+    <nav id="mainNav" class="main-nav" aria-label="Navigasi utama">
+      <a href="#/">Beranda</a>
+      <a href="#/kategori">Kategori</a>
+      <a href="#/dashboard">Dasbor Saya</a>
+      <a href="#/glosarium">Glosarium</a>
+      <a href="#/tentang">Tentang</a>
+    </nav>
+  </div>
+
+  <div class="container search-row">
+    <div class="search-box" role="search">
+      <label for="searchInput" class="sr-only">Cari data statistik, misalnya "harga naik" atau "jumlah penduduk"</label>
+      <span class="search-icon" aria-hidden="true">🔎</span>
+      <input type="text" id="searchInput" placeholder='Cari data, mis. "harga naik", "jumlah penduduk", "stunting"...' autocomplete="off" aria-autocomplete="list" aria-controls="searchSuggestions" aria-expanded="false">
+      <button id="searchClear" class="search-clear" aria-label="Hapus pencarian" hidden>✕</button>
+    </div>
+    <ul id="searchSuggestions" class="search-suggestions" role="listbox" hidden></ul>
+  </div>
+</header>
+
+<!-- ===================== KONTEN UTAMA ===================== -->
+<main id="main-content" tabindex="-1">
+  <div id="app" class="container app-view" aria-live="polite"></div>
+</main>
+
+<div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+
+<!-- ===================== TUTORIAL OVERLAY ===================== -->
+<div id="tutorialOverlay" class="tutorial-overlay" hidden role="dialog" aria-modal="true" aria-labelledby="tutorialTitle">
+  <div class="tutorial-card">
+    <button class="tutorial-close" id="tutorialClose" aria-label="Tutup panduan">✕</button>
+    <div class="tutorial-step-indicator" id="tutorialStepIndicator"></div>
+    <h2 id="tutorialTitle"></h2>
+    <p id="tutorialBody"></p>
+    <div class="tutorial-actions">
+      <button id="tutorialPrev" class="btn btn-ghost">‹ Sebelumnya</button>
+      <button id="tutorialNext" class="btn btn-primary">Selanjutnya ›</button>
+    </div>
+  </div>
+</div>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h3>Portal Data Statistik Nasional</h3>
+      <p>Data resmi, mudah dicari, mudah dipahami, dan mudah diunduh untuk seluruh warga.</p>
+    </div>
+    <div>
+      <h4>Tautan</h4>
+      <ul>
+        <li><a href="#/kategori">Semua Kategori</a></li>
+        <li><a href="#/glosarium">Glosarium Istilah</a></li>
+        <li><a href="#/dashboard">Dasbor Saya</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Format Unduhan</h4>
+      <ul><li>CSV · Excel (.xls) · JSON · PDF</li></ul>
+    </div>
+  </div>
+  <p class="footer-bottom">© <span id="year"></span> Portal Data Statistik Nasional. Dibangun untuk keterbukaan data publik.</p>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<script src="/js/app.js"></script>
+</body>
+</html>
