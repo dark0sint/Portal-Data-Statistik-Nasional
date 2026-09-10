@@ -1,0 +1,17 @@
+[
+  { "term": "Inflasi YoY", "definition": "Kenaikan harga barang dan jasa secara umum dibandingkan bulan/tahun yang sama pada periode sebelumnya. 'YoY' artinya Year on Year (dibanding tahun lalu). Contoh: inflasi YoY 3% berarti harga rata-rata naik 3% dibanding setahun lalu." },
+  { "term": "Gini Ratio", "definition": "Angka antara 0 sampai 1 yang menunjukkan seberapa merata pendapatan/pengeluaran penduduk. Semakin mendekati 0 artinya semakin merata (setara), semakin mendekati 1 artinya semakin timpang (kesenjangan kaya-miskin makin lebar)." },
+  { "term": "IPM (Indeks Pembangunan Manusia)", "definition": "Skor gabungan (0-100) yang mengukur kesejahteraan penduduk dari tiga sisi: kesehatan (usia harapan hidup), pendidikan (lama sekolah), dan ekonomi (standar hidup/pengeluaran). Semakin tinggi angkanya, semakin baik kualitas hidup penduduk." },
+  { "term": "PDB (Produk Domestik Bruto)", "definition": "Total nilai seluruh barang dan jasa yang dihasilkan di dalam suatu negara pada periode tertentu. PDB sering dipakai untuk mengukur besar dan pertumbuhan ekonomi suatu negara." },
+  { "term": "TPT (Tingkat Pengangguran Terbuka)", "definition": "Persentase orang yang tidak punya pekerjaan dan sedang aktif mencari kerja, dibandingkan total orang yang termasuk angkatan kerja (bekerja + mencari kerja)." },
+  { "term": "Stunting", "definition": "Kondisi gagal tumbuh pada balita akibat kekurangan gizi kronis dalam waktu lama, ditandai tinggi badan anak lebih pendek dibanding standar usianya." },
+  { "term": "Garis Kemiskinan", "definition": "Batas minimum pengeluaran per orang per bulan untuk memenuhi kebutuhan pokok makanan dan non-makanan. Penduduk dengan pengeluaran di bawah garis ini dikategorikan miskin." },
+  { "term": "Angka Harapan Hidup (AHH)", "definition": "Perkiraan rata-rata jumlah tahun hidup yang akan dijalani seseorang sejak lahir, dengan asumsi kondisi kesehatan lingkungan tetap sama seperti saat ia lahir." },
+  { "term": "Rata-rata Lama Sekolah (RLS)", "definition": "Rata-rata jumlah tahun yang dihabiskan penduduk (biasanya usia 25 tahun ke atas) untuk mengikuti pendidikan formal, dari SD sampai jenjang terakhir yang ditempuh." },
+  { "term": "IKLH (Indeks Kualitas Lingkungan Hidup)", "definition": "Skor gabungan yang menunjukkan kondisi kualitas air, udara, dan tutupan lahan di suatu wilayah. Semakin tinggi skornya, semakin baik kondisi lingkungannya." },
+  { "term": "Year on Year (YoY)", "definition": "Cara membandingkan data pada suatu periode dengan periode yang sama di tahun sebelumnya, misalnya membandingkan Januari 2024 dengan Januari 2023." },
+  { "term": "Year to Date (YtD)", "definition": "Akumulasi data sejak awal tahun berjalan sampai periode terbaru yang tersedia, misalnya dari Januari sampai Juni tahun ini." },
+  { "term": "Angka Kematian Bayi (AKB)", "definition": "Jumlah bayi yang meninggal sebelum berusia 1 tahun, dihitung per 1.000 kelahiran hidup pada periode tertentu. Indikator ini mencerminkan kualitas layanan kesehatan ibu dan anak." },
+  { "term": "Sensus", "definition": "Pendataan menyeluruh terhadap seluruh penduduk atau unit yang diteliti (bukan sampel), biasanya dilakukan berkala misalnya setiap 10 tahun untuk Sensus Penduduk." },
+  { "term": "Survei", "definition": "Pendataan yang dilakukan hanya pada sebagian (sampel) populasi, hasilnya digunakan untuk memperkirakan kondisi populasi secara keseluruhan." }
+]

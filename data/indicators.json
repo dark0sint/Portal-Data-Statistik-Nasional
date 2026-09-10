@@ -1,0 +1,1404 @@
+[
+  {
+    "id": "pdb-growth",
+    "category": "ekonomi",
+    "name": "Pertumbuhan Ekonomi (PDB)",
+    "unit": "% YoY",
+    "short": "Laju pertumbuhan Produk Domestik Bruto dibanding tahun sebelumnya.",
+    "description": "Pertumbuhan Ekonomi (PDB) mengukur perubahan nilai seluruh barang dan jasa yang diproduksi dalam suatu periode dibandingkan periode yang sama tahun sebelumnya. Indikator ini menjadi penanda utama kesehatan perekonomian nasional.",
+    "source": "Badan Pusat Statistik (data ilustrasi)",
+    "updated": "2024-12-01",
+    "keywords": [
+      "ekonomi tumbuh",
+      "pdb",
+      "gdp",
+      "pertumbuhan ekonomi",
+      "kondisi ekonomi",
+      "resesi"
+    ],
+    "series": [
+      {
+        "year": 2019,
+        "value": 5.02
+      },
+      {
+        "year": 2020,
+        "value": -2.07
+      },
+      {
+        "year": 2021,
+        "value": 3.7
+      },
+      {
+        "year": 2022,
+        "value": 5.31
+      },
+      {
+        "year": 2023,
+        "value": 5.05
+      },
+      {
+        "year": 2024,
+        "value": 4.84
+      }
+    ]
+  },
+  {
+    "id": "inflasi",
+    "category": "ekonomi",
+    "name": "Inflasi (YoY)",
+    "unit": "% YoY",
+    "short": "Kenaikan harga barang dan jasa secara umum dibanding tahun lalu.",
+    "description": "Inflasi YoY (Year on Year) menggambarkan persentase kenaikan harga secara umum pada bulan tertentu dibandingkan bulan yang sama tahun sebelumnya. Semakin tinggi inflasi, semakin cepat daya beli uang menurun.",
+    "source": "Badan Pusat Statistik (data ilustrasi)",
+    "updated": "2024-12-01",
+    "keywords": [
+      "harga naik",
+      "harga barang",
+      "inflasi",
+      "daya beli",
+      "harga sembako"
+    ],
+    "series": [
+      {
+        "year": 2019,
+        "value": 2.72
+      },
+      {
+        "year": 2020,
+        "value": 1.55
+      },
+      {
+        "year": 2021,
+        "value": 2.44
+      },
+      {
+        "year": 2022,
+        "value": 1.1
+      },
+      {
+        "year": 2023,
+        "value": 0.32
+      },
+      {
+        "year": 2024,
+        "value": -0.06
+      }
+    ]
+  },
+  {
+    "id": "pengangguran",
+    "category": "ekonomi",
+    "name": "Tingkat Pengangguran Terbuka (TPT)",
+    "unit": "%",
+    "short": "Persentase angkatan kerja yang sedang tidak bekerja dan mencari kerja.",
+    "description": "Tingkat Pengangguran Terbuka (TPT) adalah persentase jumlah orang yang termasuk angkatan kerja namun tidak memiliki pekerjaan dan sedang aktif mencari pekerjaan, dibandingkan total angkatan kerja.",
+    "source": "Badan Pusat Statistik (data ilustrasi)",
+    "updated": "2024-08-01",
+    "keywords": [
+      "pengangguran",
+      "orang nganggur",
+      "cari kerja",
+      "lowongan kerja",
+      "tpt"
+    ],
+    "series": [
+      {
+        "year": 2019,
+        "value": 5.28
+      },
+      {
+        "year": 2020,
+        "value": 4.86
+      },
+      {
+        "year": 2021,
+        "value": 4.63
+      },
+      {
+        "year": 2022,
+        "value": 4.73
+      },
+      {
+        "year": 2023,
+        "value": 4.53
+      },
+      {
+        "year": 2024,
+        "value": 4.3
+      }
+    ],
+    "provinceData": [
+      {
+        "province_id": "11",
+        "province": "Aceh",
+        "value": 7.74
+      },
+      {
+        "province_id": "12",
+        "province": "Sumatera Utara",
+        "value": 7.78
+      },
+      {
+        "province_id": "13",
+        "province": "Sumatera Barat",
+        "value": 6.99
+      },
+      {
+        "province_id": "14",
+        "province": "Riau",
+        "value": 3.83
+      },
+      {
+        "province_id": "15",
+        "province": "Jambi",
+        "value": 6.43
+      },
+      {
+        "province_id": "16",
+        "province": "Sumatera Selatan",
+        "value": 4.4
+      },
+      {
+        "province_id": "17",
+        "province": "Bengkulu",
+        "value": 3.77
+      },
+      {
+        "province_id": "18",
+        "province": "Lampung",
+        "value": 3.54
+      },
+      {
+        "province_id": "19",
+        "province": "Kepulauan Bangka Belitung",
+        "value": 5.61
+      },
+      {
+        "province_id": "21",
+        "province": "Kepulauan Riau",
+        "value": 7.76
+      },
+      {
+        "province_id": "31",
+        "province": "DKI Jakarta",
+        "value": 7.48
+      },
+      {
+        "province_id": "32",
+        "province": "Jawa Barat",
+        "value": 4.66
+      },
+      {
+        "province_id": "33",
+        "province": "Jawa Tengah",
+        "value": 6
+      },
+      {
+        "province_id": "34",
+        "province": "DI Yogyakarta",
+        "value": 5.58
+      },
+      {
+        "province_id": "35",
+        "province": "Jawa Timur",
+        "value": 5.42
+      },
+      {
+        "province_id": "36",
+        "province": "Banten",
+        "value": 8.13
+      },
+      {
+        "province_id": "51",
+        "province": "Bali",
+        "value": 6.17
+      },
+      {
+        "province_id": "52",
+        "province": "Nusa Tenggara Barat",
+        "value": 4.07
+      },
+      {
+        "province_id": "53",
+        "province": "Nusa Tenggara Timur",
+        "value": 3.81
+      },
+      {
+        "province_id": "61",
+        "province": "Kalimantan Barat",
+        "value": 6.27
+      },
+      {
+        "province_id": "62",
+        "province": "Kalimantan Tengah",
+        "value": 3.08
+      },
+      {
+        "province_id": "63",
+        "province": "Kalimantan Selatan",
+        "value": 2.19
+      },
+      {
+        "province_id": "64",
+        "province": "Kalimantan Timur",
+        "value": 3.97
+      },
+      {
+        "province_id": "65",
+        "province": "Kalimantan Utara",
+        "value": 1.98
+      },
+      {
+        "province_id": "71",
+        "province": "Sulawesi Utara",
+        "value": 3.33
+      },
+      {
+        "province_id": "72",
+        "province": "Sulawesi Tengah",
+        "value": 7.83
+      },
+      {
+        "province_id": "73",
+        "province": "Sulawesi Selatan",
+        "value": 2.73
+      },
+      {
+        "province_id": "74",
+        "province": "Sulawesi Tenggara",
+        "value": 5.72
+      },
+      {
+        "province_id": "75",
+        "province": "Gorontalo",
+        "value": 8.49
+      },
+      {
+        "province_id": "76",
+        "province": "Sulawesi Barat",
+        "value": 2.71
+      },
+      {
+        "province_id": "81",
+        "province": "Maluku",
+        "value": 4.66
+      },
+      {
+        "province_id": "82",
+        "province": "Maluku Utara",
+        "value": 7.22
+      },
+      {
+        "province_id": "91",
+        "province": "Papua",
+        "value": 5.67
+      },
+      {
+        "province_id": "92",
+        "province": "Papua Barat",
+        "value": 2.63
+      }
+    ]
+  },
+  {
+    "id": "kemiskinan",
+    "category": "ekonomi",
+    "name": "Tingkat Kemiskinan",
+    "unit": "% penduduk",
+    "short": "Persentase penduduk dengan pengeluaran di bawah garis kemiskinan.",
+    "description": "Tingkat kemiskinan menunjukkan proporsi penduduk yang memiliki rata-rata pengeluaran per kapita per bulan di bawah garis kemiskinan yang ditetapkan.",
+    "source": "Badan Pusat Statistik (data ilustrasi)",
+    "updated": "2024-09-01",
+    "keywords": [
+      "penduduk miskin",
+      "kemiskinan",
+      "garis kemiskinan",
+      "warga miskin"
+    ],
+    "series": [
+      {
+        "year": 2019,
+        "value": 9.41
+      },
+      {
+        "year": 2020,
+        "value": 9.02
+      },
+      {
+        "year": 2021,
+        "value": 8.96
+      },
+      {
+        "year": 2022,
+        "value": 8.82
+      },
+      {
+        "year": 2023,
+        "value": 9.06
+      },
+      {
+        "year": 2024,
+        "value": 8.95
+      }
+    ]
+  },
+  {
+    "id": "gini-ratio",
+    "category": "ekonomi",
+    "name": "Gini Ratio",
+    "unit": "indeks (0-1)",
+    "short": "Ukuran ketimpangan distribusi pengeluaran/pendapatan penduduk.",
+    "description": "Gini Ratio adalah ukuran statistik yang menggambarkan tingkat pemerataan distribusi pendapatan atau pengeluaran penduduk. Nilainya berkisar 0 (sempurna merata) hingga 1 (sangat timpang).",
+    "source": "Badan Pusat Statistik (data ilustrasi)",
+    "updated": "2024-09-01",
+    "keywords": [
+      "ketimpangan",
+      "kesenjangan ekonomi",
+      "gini ratio",
+      "distribusi pendapatan"
+    ],
+    "series": [
+      {
+        "year": 2019,
+        "value": 0.38
+      },
+      {
+        "year": 2020,
+        "value": 0.378
+      },
+      {
+        "year": 2021,
+        "value": 0.372
+      },
+      {
+        "year": 2022,
+        "value": 0.372
+      },
+      {
+        "year": 2023,
+        "value": 0.369
+      },
+      {
+        "year": 2024,
+        "value": 0.363
+      }
+    ]
+  },
+  {
+    "id": "penduduk",
+    "category": "kependudukan",
+    "name": "Jumlah Penduduk",
+    "unit": "juta jiwa",
+    "short": "Total penduduk Indonesia berdasarkan proyeksi/sensus.",
+    "description": "Jumlah penduduk merupakan hasil sensus atau proyeksi penduduk yang mencakup seluruh warga negara dan penduduk yang berdomisili di wilayah Indonesia pada periode tertentu.",
+    "source": "Badan Pusat Statistik (data ilustrasi)",
+    "updated": "2024-06-01",
+    "keywords": [
+      "jumlah penduduk",
+      "berapa penduduk indonesia",
+      "populasi",
+      "sensus penduduk"
+    ],
+    "series": [
+      {
+        "year": 2019,
+        "value": 268.6
+      },
+      {
+        "year": 2020,
+        "value": 270.4
+      },
+      {
+        "year": 2021,
+        "value": 271.7
+      },
+      {
+        "year": 2022,
+        "value": 273.1
+      },
+      {
+        "year": 2023,
+        "value": 274.4
+      },
+      {
+        "year": 2024,
+        "value": 276.2
+      }
+    ],
+    "provinceData": [
+      {
+        "province_id": "11",
+        "province": "Aceh",
+        "value": 2.08
+      },
+      {
+        "province_id": "12",
+        "province": "Sumatera Utara",
+        "value": 6.01
+      },
+      {
+        "province_id": "13",
+        "province": "Sumatera Barat",
+        "value": 9.58
+      },
+      {
+        "province_id": "14",
+        "province": "Riau",
+        "value": 16.22
+      },
+      {
+        "province_id": "15",
+        "province": "Jambi",
+        "value": 5.96
+      },
+      {
+        "province_id": "16",
+        "province": "Sumatera Selatan",
+        "value": 8.9
+      },
+      {
+        "province_id": "17",
+        "province": "Bengkulu",
+        "value": 1.74
+      },
+      {
+        "province_id": "18",
+        "province": "Lampung",
+        "value": 9.68
+      },
+      {
+        "province_id": "19",
+        "province": "Kepulauan Bangka Belitung",
+        "value": 11.17
+      },
+      {
+        "province_id": "21",
+        "province": "Kepulauan Riau",
+        "value": 12.47
+      },
+      {
+        "province_id": "31",
+        "province": "DKI Jakarta",
+        "value": 11.56
+      },
+      {
+        "province_id": "32",
+        "province": "Jawa Barat",
+        "value": 10.35
+      },
+      {
+        "province_id": "33",
+        "province": "Jawa Tengah",
+        "value": 8.78
+      },
+      {
+        "province_id": "34",
+        "province": "DI Yogyakarta",
+        "value": 11.62
+      },
+      {
+        "province_id": "35",
+        "province": "Jawa Timur",
+        "value": 13.2
+      },
+      {
+        "province_id": "36",
+        "province": "Banten",
+        "value": 10.94
+      },
+      {
+        "province_id": "51",
+        "province": "Bali",
+        "value": 12.35
+      },
+      {
+        "province_id": "52",
+        "province": "Nusa Tenggara Barat",
+        "value": 6.34
+      },
+      {
+        "province_id": "53",
+        "province": "Nusa Tenggara Timur",
+        "value": 16.48
+      },
+      {
+        "province_id": "61",
+        "province": "Kalimantan Barat",
+        "value": 6.36
+      },
+      {
+        "province_id": "62",
+        "province": "Kalimantan Tengah",
+        "value": 4.78
+      },
+      {
+        "province_id": "63",
+        "province": "Kalimantan Selatan",
+        "value": 0.81
+      },
+      {
+        "province_id": "64",
+        "province": "Kalimantan Timur",
+        "value": 2.09
+      },
+      {
+        "province_id": "65",
+        "province": "Kalimantan Utara",
+        "value": 10.47
+      },
+      {
+        "province_id": "71",
+        "province": "Sulawesi Utara",
+        "value": 6.08
+      },
+      {
+        "province_id": "72",
+        "province": "Sulawesi Tengah",
+        "value": 4.43
+      },
+      {
+        "province_id": "73",
+        "province": "Sulawesi Selatan",
+        "value": 13.22
+      },
+      {
+        "province_id": "74",
+        "province": "Sulawesi Tenggara",
+        "value": 4.46
+      },
+      {
+        "province_id": "75",
+        "province": "Gorontalo",
+        "value": 6.36
+      },
+      {
+        "province_id": "76",
+        "province": "Sulawesi Barat",
+        "value": 3.04
+      },
+      {
+        "province_id": "81",
+        "province": "Maluku",
+        "value": 9.75
+      },
+      {
+        "province_id": "82",
+        "province": "Maluku Utara",
+        "value": 12.91
+      },
+      {
+        "province_id": "91",
+        "province": "Papua",
+        "value": 6.5
+      },
+      {
+        "province_id": "92",
+        "province": "Papua Barat",
+        "value": 8.05
+      }
+    ]
+  },
+  {
+    "id": "laju-penduduk",
+    "category": "kependudukan",
+    "name": "Laju Pertumbuhan Penduduk",
+    "unit": "% per tahun",
+    "short": "Rata-rata pertambahan jumlah penduduk per tahun.",
+    "description": "Laju Pertumbuhan Penduduk (LPP) mengukur rata-rata persentase pertambahan penduduk per tahun pada periode tertentu, dipengaruhi oleh kelahiran, kematian, dan migrasi.",
+    "source": "Badan Pusat Statistik (data ilustrasi)",
+    "updated": "2024-06-01",
+    "keywords": [
+      "pertumbuhan penduduk",
+      "laju penduduk",
+      "kelahiran",
+      "angka kelahiran"
+    ],
+    "series": [
+      {
+        "year": 2019,
+        "value": 1.25
+      },
+      {
+        "year": 2020,
+        "value": 1.28
+      },
+      {
+        "year": 2021,
+        "value": 1.3
+      },
+      {
+        "year": 2022,
+        "value": 1.31
+      },
+      {
+        "year": 2023,
+        "value": 1.25
+      },
+      {
+        "year": 2024,
+        "value": 1.25
+      }
+    ]
+  },
+  {
+    "id": "ipm",
+    "category": "kependudukan",
+    "name": "Indeks Pembangunan Manusia (IPM)",
+    "unit": "indeks (0-100)",
+    "short": "Ukuran capaian pembangunan manusia dari sisi kesehatan, pendidikan, dan ekonomi.",
+    "description": "Indeks Pembangunan Manusia (IPM) mengukur capaian pembangunan manusia berbasis sejumlah komponen dasar kualitas hidup: umur panjang dan hidup sehat, pengetahuan, serta standar hidup layak.",
+    "source": "Badan Pusat Statistik (data ilustrasi)",
+    "updated": "2024-11-01",
+    "keywords": [
+      "ipm",
+      "kualitas hidup",
+      "pembangunan manusia",
+      "human development index"
+    ],
+    "series": [
+      {
+        "year": 2019,
+        "value": 71.92
+      },
+      {
+        "year": 2020,
+        "value": 72.45
+      },
+      {
+        "year": 2021,
+        "value": 73.06
+      },
+      {
+        "year": 2022,
+        "value": 73.56
+      },
+      {
+        "year": 2023,
+        "value": 74.17
+      },
+      {
+        "year": 2024,
+        "value": 74.61
+      }
+    ],
+    "provinceData": [
+      {
+        "province_id": "11",
+        "province": "Aceh",
+        "value": 70.47
+      },
+      {
+        "province_id": "12",
+        "province": "Sumatera Utara",
+        "value": 71.17
+      },
+      {
+        "province_id": "13",
+        "province": "Sumatera Barat",
+        "value": 71.9
+      },
+      {
+        "province_id": "14",
+        "province": "Riau",
+        "value": 66.01
+      },
+      {
+        "province_id": "15",
+        "province": "Jambi",
+        "value": 67.3
+      },
+      {
+        "province_id": "16",
+        "province": "Sumatera Selatan",
+        "value": 70.96
+      },
+      {
+        "province_id": "17",
+        "province": "Bengkulu",
+        "value": 72.2
+      },
+      {
+        "province_id": "18",
+        "province": "Lampung",
+        "value": 72
+      },
+      {
+        "province_id": "19",
+        "province": "Kepulauan Bangka Belitung",
+        "value": 75.37
+      },
+      {
+        "province_id": "21",
+        "province": "Kepulauan Riau",
+        "value": 68.69
+      },
+      {
+        "province_id": "31",
+        "province": "DKI Jakarta",
+        "value": 74.44
+      },
+      {
+        "province_id": "32",
+        "province": "Jawa Barat",
+        "value": 76.26
+      },
+      {
+        "province_id": "33",
+        "province": "Jawa Tengah",
+        "value": 70.29
+      },
+      {
+        "province_id": "34",
+        "province": "DI Yogyakarta",
+        "value": 73.13
+      },
+      {
+        "province_id": "35",
+        "province": "Jawa Timur",
+        "value": 70.16
+      },
+      {
+        "province_id": "36",
+        "province": "Banten",
+        "value": 73.53
+      },
+      {
+        "province_id": "51",
+        "province": "Bali",
+        "value": 68.43
+      },
+      {
+        "province_id": "52",
+        "province": "Nusa Tenggara Barat",
+        "value": 76.74
+      },
+      {
+        "province_id": "53",
+        "province": "Nusa Tenggara Timur",
+        "value": 73.21
+      },
+      {
+        "province_id": "61",
+        "province": "Kalimantan Barat",
+        "value": 71.05
+      },
+      {
+        "province_id": "62",
+        "province": "Kalimantan Tengah",
+        "value": 67.9
+      },
+      {
+        "province_id": "63",
+        "province": "Kalimantan Selatan",
+        "value": 74.37
+      },
+      {
+        "province_id": "64",
+        "province": "Kalimantan Timur",
+        "value": 76.92
+      },
+      {
+        "province_id": "65",
+        "province": "Kalimantan Utara",
+        "value": 69.04
+      },
+      {
+        "province_id": "71",
+        "province": "Sulawesi Utara",
+        "value": 77.15
+      },
+      {
+        "province_id": "72",
+        "province": "Sulawesi Tengah",
+        "value": 73.29
+      },
+      {
+        "province_id": "73",
+        "province": "Sulawesi Selatan",
+        "value": 77.27
+      },
+      {
+        "province_id": "74",
+        "province": "Sulawesi Tenggara",
+        "value": 73.65
+      },
+      {
+        "province_id": "75",
+        "province": "Gorontalo",
+        "value": 77.9
+      },
+      {
+        "province_id": "76",
+        "province": "Sulawesi Barat",
+        "value": 66.77
+      },
+      {
+        "province_id": "81",
+        "province": "Maluku",
+        "value": 73.24
+      },
+      {
+        "province_id": "82",
+        "province": "Maluku Utara",
+        "value": 67.27
+      },
+      {
+        "province_id": "91",
+        "province": "Papua",
+        "value": 73.84
+      },
+      {
+        "province_id": "92",
+        "province": "Papua Barat",
+        "value": 70.25
+      }
+    ]
+  },
+  {
+    "id": "harapan-hidup",
+    "category": "kesehatan",
+    "name": "Angka Harapan Hidup",
+    "unit": "tahun",
+    "short": "Perkiraan rata-rata usia yang dapat dicapai penduduk sejak lahir.",
+    "description": "Angka Harapan Hidup (AHH) menggambarkan rata-rata perkiraan banyak tahun yang dapat ditempuh oleh seseorang sejak lahir dalam kondisi mortalitas yang berlaku di lingkungannya.",
+    "source": "Badan Pusat Statistik (data ilustrasi)",
+    "updated": "2024-11-01",
+    "keywords": [
+      "harapan hidup",
+      "usia harapan hidup",
+      "umur panjang"
+    ],
+    "series": [
+      {
+        "year": 2019,
+        "value": 71.34
+      },
+      {
+        "year": 2020,
+        "value": 71.53
+      },
+      {
+        "year": 2021,
+        "value": 71.57
+      },
+      {
+        "year": 2022,
+        "value": 71.69
+      },
+      {
+        "year": 2023,
+        "value": 71.82
+      },
+      {
+        "year": 2024,
+        "value": 71.98
+      }
+    ]
+  },
+  {
+    "id": "kematian-bayi",
+    "category": "kesehatan",
+    "name": "Angka Kematian Bayi (AKB)",
+    "unit": "per 1.000 kelahiran hidup",
+    "short": "Jumlah kematian bayi sebelum usia 1 tahun per 1.000 kelahiran hidup.",
+    "description": "Angka Kematian Bayi (AKB) adalah jumlah kematian bayi berusia di bawah satu tahun per 1.000 kelahiran hidup pada tahun tertentu, mencerminkan kualitas layanan kesehatan ibu dan anak.",
+    "source": "Badan Pusat Statistik (data ilustrasi)",
+    "updated": "2024-10-01",
+    "keywords": [
+      "kematian bayi",
+      "akb",
+      "kesehatan ibu dan anak"
+    ],
+    "series": [
+      {
+        "year": 2019,
+        "value": 20.6
+      },
+      {
+        "year": 2020,
+        "value": 20.3
+      },
+      {
+        "year": 2021,
+        "value": 19.8
+      },
+      {
+        "year": 2022,
+        "value": 19.1
+      },
+      {
+        "year": 2023,
+        "value": 18.9
+      },
+      {
+        "year": 2024,
+        "value": 18.5
+      }
+    ]
+  },
+  {
+    "id": "stunting",
+    "category": "kesehatan",
+    "name": "Prevalensi Stunting",
+    "unit": "% balita",
+    "short": "Persentase balita dengan tinggi badan tidak sesuai usia (kekerdilan).",
+    "description": "Prevalensi Stunting mengukur persentase balita yang mengalami gangguan pertumbuhan (tinggi badan tidak sesuai usia) akibat kekurangan gizi kronis, terutama pada 1.000 hari pertama kehidupan.",
+    "source": "Survei Kesehatan Indonesia (data ilustrasi)",
+    "updated": "2024-06-01",
+    "keywords": [
+      "stunting",
+      "gizi buruk",
+      "anak pendek",
+      "kekerdilan"
+    ],
+    "series": [
+      {
+        "year": 2019,
+        "value": 27.7
+      },
+      {
+        "year": 2020,
+        "value": 26.4
+      },
+      {
+        "year": 2021,
+        "value": 24.2
+      },
+      {
+        "year": 2022,
+        "value": 22.3
+      },
+      {
+        "year": 2023,
+        "value": 20.4
+      },
+      {
+        "year": 2024,
+        "value": 18.7
+      }
+    ],
+    "provinceData": [
+      {
+        "province_id": "11",
+        "province": "Aceh",
+        "value": 25.5
+      },
+      {
+        "province_id": "12",
+        "province": "Sumatera Utara",
+        "value": 18.3
+      },
+      {
+        "province_id": "13",
+        "province": "Sumatera Barat",
+        "value": 15.7
+      },
+      {
+        "province_id": "14",
+        "province": "Riau",
+        "value": 21.5
+      },
+      {
+        "province_id": "15",
+        "province": "Jambi",
+        "value": 22.4
+      },
+      {
+        "province_id": "16",
+        "province": "Sumatera Selatan",
+        "value": 20.3
+      },
+      {
+        "province_id": "17",
+        "province": "Bengkulu",
+        "value": 24.2
+      },
+      {
+        "province_id": "18",
+        "province": "Lampung",
+        "value": 15.3
+      },
+      {
+        "province_id": "19",
+        "province": "Kepulauan Bangka Belitung",
+        "value": 23.1
+      },
+      {
+        "province_id": "21",
+        "province": "Kepulauan Riau",
+        "value": 17.2
+      },
+      {
+        "province_id": "31",
+        "province": "DKI Jakarta",
+        "value": 20.6
+      },
+      {
+        "province_id": "32",
+        "province": "Jawa Barat",
+        "value": 19.9
+      },
+      {
+        "province_id": "33",
+        "province": "Jawa Tengah",
+        "value": 20.6
+      },
+      {
+        "province_id": "34",
+        "province": "DI Yogyakarta",
+        "value": 17.2
+      },
+      {
+        "province_id": "35",
+        "province": "Jawa Timur",
+        "value": 25.8
+      },
+      {
+        "province_id": "36",
+        "province": "Banten",
+        "value": 25.7
+      },
+      {
+        "province_id": "51",
+        "province": "Bali",
+        "value": 14.6
+      },
+      {
+        "province_id": "52",
+        "province": "Nusa Tenggara Barat",
+        "value": 19
+      },
+      {
+        "province_id": "53",
+        "province": "Nusa Tenggara Timur",
+        "value": 18.9
+      },
+      {
+        "province_id": "61",
+        "province": "Kalimantan Barat",
+        "value": 17.3
+      },
+      {
+        "province_id": "62",
+        "province": "Kalimantan Tengah",
+        "value": 14.1
+      },
+      {
+        "province_id": "63",
+        "province": "Kalimantan Selatan",
+        "value": 15.3
+      },
+      {
+        "province_id": "64",
+        "province": "Kalimantan Timur",
+        "value": 24.7
+      },
+      {
+        "province_id": "65",
+        "province": "Kalimantan Utara",
+        "value": 27.3
+      },
+      {
+        "province_id": "71",
+        "province": "Sulawesi Utara",
+        "value": 16.2
+      },
+      {
+        "province_id": "72",
+        "province": "Sulawesi Tengah",
+        "value": 23.5
+      },
+      {
+        "province_id": "73",
+        "province": "Sulawesi Selatan",
+        "value": 27.6
+      },
+      {
+        "province_id": "74",
+        "province": "Sulawesi Tenggara",
+        "value": 16.5
+      },
+      {
+        "province_id": "75",
+        "province": "Gorontalo",
+        "value": 19.2
+      },
+      {
+        "province_id": "76",
+        "province": "Sulawesi Barat",
+        "value": 26.1
+      },
+      {
+        "province_id": "81",
+        "province": "Maluku",
+        "value": 15.4
+      },
+      {
+        "province_id": "82",
+        "province": "Maluku Utara",
+        "value": 23.1
+      },
+      {
+        "province_id": "91",
+        "province": "Papua",
+        "value": 18.3
+      },
+      {
+        "province_id": "92",
+        "province": "Papua Barat",
+        "value": 25.3
+      }
+    ]
+  },
+  {
+    "id": "aps",
+    "category": "pendidikan",
+    "name": "Angka Partisipasi Sekolah (APS)",
+    "unit": "%",
+    "short": "Persentase penduduk usia sekolah yang masih bersekolah.",
+    "description": "Angka Partisipasi Sekolah (APS) menunjukkan persentase penduduk pada kelompok usia sekolah tertentu yang masih mengikuti pendidikan di sekolah, digunakan untuk memantau akses pendidikan.",
+    "source": "Badan Pusat Statistik (data ilustrasi)",
+    "updated": "2024-09-01",
+    "keywords": [
+      "anak sekolah",
+      "partisipasi sekolah",
+      "putus sekolah",
+      "aps"
+    ],
+    "series": [
+      {
+        "year": 2019,
+        "value": 97.3
+      },
+      {
+        "year": 2020,
+        "value": 97.43
+      },
+      {
+        "year": 2021,
+        "value": 97.69
+      },
+      {
+        "year": 2022,
+        "value": 98.03
+      },
+      {
+        "year": 2023,
+        "value": 98.17
+      },
+      {
+        "year": 2024,
+        "value": 98.21
+      }
+    ]
+  },
+  {
+    "id": "lama-sekolah",
+    "category": "pendidikan",
+    "name": "Rata-rata Lama Sekolah",
+    "unit": "tahun",
+    "short": "Rata-rata jumlah tahun pendidikan yang ditempuh penduduk usia 25 tahun ke atas.",
+    "description": "Rata-rata Lama Sekolah (RLS) menggambarkan jumlah tahun yang digunakan penduduk usia 25 tahun ke atas dalam menjalani pendidikan formal, tidak termasuk tahun mengulang kelas.",
+    "source": "Badan Pusat Statistik (data ilustrasi)",
+    "updated": "2024-11-01",
+    "keywords": [
+      "lama sekolah",
+      "pendidikan rata-rata",
+      "rls"
+    ],
+    "series": [
+      {
+        "year": 2019,
+        "value": 8.34
+      },
+      {
+        "year": 2020,
+        "value": 8.4
+      },
+      {
+        "year": 2021,
+        "value": 8.48
+      },
+      {
+        "year": 2022,
+        "value": 8.55
+      },
+      {
+        "year": 2023,
+        "value": 8.6
+      },
+      {
+        "year": 2024,
+        "value": 8.69
+      }
+    ]
+  },
+  {
+    "id": "melek-huruf",
+    "category": "pendidikan",
+    "name": "Angka Melek Huruf",
+    "unit": "%",
+    "short": "Persentase penduduk usia 15 tahun ke atas yang bisa membaca dan menulis.",
+    "description": "Angka Melek Huruf mengukur persentase penduduk usia 15 tahun ke atas yang memiliki kemampuan membaca dan menulis huruf latin maupun huruf lainnya.",
+    "source": "Badan Pusat Statistik (data ilustrasi)",
+    "updated": "2024-09-01",
+    "keywords": [
+      "melek huruf",
+      "buta huruf",
+      "kemampuan baca tulis"
+    ],
+    "series": [
+      {
+        "year": 2019,
+        "value": 96.1
+      },
+      {
+        "year": 2020,
+        "value": 96.14
+      },
+      {
+        "year": 2021,
+        "value": 96.23
+      },
+      {
+        "year": 2022,
+        "value": 96.42
+      },
+      {
+        "year": 2023,
+        "value": 96.46
+      },
+      {
+        "year": 2024,
+        "value": 96.61
+      }
+    ]
+  },
+  {
+    "id": "tutupan-hutan",
+    "category": "lingkungan",
+    "name": "Luas Tutupan Hutan",
+    "unit": "% dari luas daratan",
+    "short": "Persentase wilayah daratan yang masih tertutup hutan.",
+    "description": "Luas Tutupan Hutan menggambarkan proporsi wilayah daratan Indonesia yang masih berupa kawasan berhutan, menjadi salah satu indikator penting kelestarian lingkungan dan keanekaragaman hayati.",
+    "source": "Kementerian Lingkungan Hidup dan Kehutanan (data ilustrasi)",
+    "updated": "2024-07-01",
+    "keywords": [
+      "hutan",
+      "deforestasi",
+      "tutupan hutan",
+      "kehutanan"
+    ],
+    "series": [
+      {
+        "year": 2019,
+        "value": 50.1
+      },
+      {
+        "year": 2020,
+        "value": 49.99
+      },
+      {
+        "year": 2021,
+        "value": 49.83
+      },
+      {
+        "year": 2022,
+        "value": 49.57
+      },
+      {
+        "year": 2023,
+        "value": 49.38
+      },
+      {
+        "year": 2024,
+        "value": 49.01
+      }
+    ]
+  },
+  {
+    "id": "iklh",
+    "category": "lingkungan",
+    "name": "Indeks Kualitas Lingkungan Hidup (IKLH)",
+    "unit": "indeks (0-100)",
+    "short": "Ukuran kualitas air, udara, dan tutupan lahan secara nasional.",
+    "description": "Indeks Kualitas Lingkungan Hidup (IKLH) adalah indeks komposit yang menggambarkan kualitas air, udara, dan tutupan lahan pada suatu wilayah dan periode tertentu.",
+    "source": "Kementerian Lingkungan Hidup dan Kehutanan (data ilustrasi)",
+    "updated": "2024-07-01",
+    "keywords": [
+      "kualitas lingkungan",
+      "iklh",
+      "kualitas udara",
+      "kualitas air"
+    ],
+    "series": [
+      {
+        "year": 2019,
+        "value": 71.2
+      },
+      {
+        "year": 2020,
+        "value": 71.76
+      },
+      {
+        "year": 2021,
+        "value": 72.58
+      },
+      {
+        "year": 2022,
+        "value": 73.48
+      },
+      {
+        "year": 2023,
+        "value": 73.95
+      },
+      {
+        "year": 2024,
+        "value": 74.83
+      }
+    ]
+  },
+  {
+    "id": "emisi-grk",
+    "category": "lingkungan",
+    "name": "Emisi Gas Rumah Kaca",
+    "unit": "juta ton CO2e",
+    "short": "Total emisi gas rumah kaca nasional per tahun.",
+    "description": "Emisi Gas Rumah Kaca (GRK) mengukur total gas seperti CO2, metana, dan gas lain yang berkontribusi pada efek rumah kaca dan perubahan iklim, dihasilkan dari berbagai sektor termasuk energi, kehutanan, dan pertanian.",
+    "source": "Kementerian Lingkungan Hidup dan Kehutanan (data ilustrasi)",
+    "updated": "2024-07-01",
+    "keywords": [
+      "emisi karbon",
+      "gas rumah kaca",
+      "perubahan iklim",
+      "grk"
+    ],
+    "series": [
+      {
+        "year": 2019,
+        "value": 1800
+      },
+      {
+        "year": 2020,
+        "value": 1817
+      },
+      {
+        "year": 2021,
+        "value": 1876
+      },
+      {
+        "year": 2022,
+        "value": 1883
+      },
+      {
+        "year": 2023,
+        "value": 1920
+      },
+      {
+        "year": 2024,
+        "value": 1914
+      }
+    ]
+  }
+]

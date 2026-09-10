@@ -1,0 +1,7 @@
+[
+  { "id": "ekonomi", "name": "Ekonomi", "icon": "trending-up", "color": "#2563eb", "description": "Pertumbuhan ekonomi, inflasi, ketenagakerjaan, dan kemiskinan." },
+  { "id": "kependudukan", "name": "Kependudukan", "icon": "users", "color": "#059669", "description": "Jumlah penduduk, kepadatan, dan pembangunan manusia." },
+  { "id": "kesehatan", "name": "Kesehatan", "icon": "heart-pulse", "color": "#dc2626", "description": "Harapan hidup, gizi, dan pelayanan kesehatan." },
+  { "id": "pendidikan", "name": "Pendidikan", "icon": "graduation-cap", "color": "#7c3aed", "description": "Partisipasi sekolah, literasi, dan lama sekolah." },
+  { "id": "lingkungan", "name": "Lingkungan", "icon": "leaf", "color": "#16a34a", "description": "Kualitas lingkungan, hutan, dan emisi karbon." }
+]
