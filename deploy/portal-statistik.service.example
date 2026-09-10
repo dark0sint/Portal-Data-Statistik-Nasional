@@ -1,0 +1,21 @@
+[Unit]
+Description=Portal Data Statistik Nasional
+After=network.target
+
+[Service]
+Type=simple
+User=www-data
+WorkingDirectory=/var/www/portal-statistik
+ExecStart=/usr/bin/node server.js
+Restart=on-failure
+Environment=PORT=3000
+Environment=NODE_ENV=production
+
+[Install]
+WantedBy=multi-user.target
+
+# Cara pakai:
+#   sudo cp deploy/portal-statistik.service.example /etc/systemd/system/portal-statistik.service
+#   sudo systemctl daemon-reload
+#   sudo systemctl enable --now portal-statistik
+#   sudo systemctl status portal-statistik
